@@ -1,0 +1,7 @@
+project: jsonschema-rs
+target: compile-schema
+
+cmds:
+  - cmd: /compile_schema
+  - cmd: /compile_schema_no_inst @@
+    libfuzzer: false
